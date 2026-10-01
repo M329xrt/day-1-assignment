@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickNotes</title>
+  </head>
+  <body>
+    <header>
+        <nav> <a href="index.html">Home</a>
+        <a href="about.html">About</a></nav>
+      <h1>QuickNotes</h1>
+      <p>Capture ideas before they disappear.</p>
+    </header>
+ 
+    <main>
+        <h2>Day 1 Assignment</h2>
+      <section>
+        <h2>Add a note</h2>
+        <p>Quicknotes help me remember things <br>i can note down anything</p>
+        <h3>How to use QuickNotes</h3>
+        <ol>
+            <li>open quicknote</li>
+            <li>create a new note</li>
+            <li>write your notes</li>
+        </ol>
+        <h4>Features</h4>
+        <ul>
+            <li>quick access</li>
+            <li>code snippets</li>
+            <li>saves notes</li>
+        </ul>
+          <h4>Keyboard shortcuts</h4>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Shortcut</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ctrl + S</td>
+                <td>Save notes</td>
+            </tr>
+            <tr>
+                <td>Ctrl + N</td>
+                <td>Create a new note</td>
+            </tr>
+            <tr>
+                <td>Ctrl + F</td>
+                <td>Search notes</td>
+            </tr>
+        </tbody>
+    </table>
+     <h2>Send feedback</h2>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="feedback">Your feedback:</label>
+        <textarea id="feedback" name="feedback"></textarea>
+
+        <button type="submit">Send feedback</button>
+    </form>
+        <form id="note-form">
+          <label for="note-input">New note</label>
+          <input type="text" id="note-input" placeholder="Type a note..." />
+          <button type="submit">Add Note</button>
+        </form>
+      </section>
+ 
+      <section>
+        <h2>Your notes</h2>
+        <p id="note-count">You have 2 notes.</p>
+        <ul id="notes-list">
+          <li>Revise HTML forms</li>
+          <li>Push my code to GitHub</li>
+        </ul>
+      </section>
+    </main>
+ 
+    <footer>
+      <p>&copy; 2026 QuickNotes. Built during Web Foundations.</p>
+    </footer>
+  </body>
+</html>
