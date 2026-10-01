@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+
+button {
+    transition: 0.3s;
+}
+
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
