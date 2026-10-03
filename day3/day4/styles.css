@@ -1,0 +1,43 @@
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --box-color: #f2f2f2;
+}
+
+body.dark {
+  --bg-color: #222;
+  --text-color: white;
+  --box-color: #444;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+textarea {
+  background-color: var(--box-color);
+  color: var(--text-color);
+  width: 100%;
+  height: 150px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  color:black;
+  background-color:beige;
+}
+
+.warning {
+  color: orange;
+}
+
+.over {
+  color: red;
+  font-weight: bold;
+}
