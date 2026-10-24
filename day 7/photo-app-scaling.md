@@ -122,7 +122,7 @@ The database would store details about each photo, such as the photo ID, owner, 
 
 ## 5. Architecture diagram
 
-```text
+
                          USERS
                            |
                            v
@@ -193,7 +193,6 @@ The database would store details about each photo, such as the photo ID, owner, 
 
       Database stores photo details and storage keys.
       CDN delivers images to users.
-```
 
 ## 6. What each component does
 
